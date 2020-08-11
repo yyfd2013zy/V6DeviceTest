@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_test_camera"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Camera"
+                        android:textColor="@android:color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_test_distance"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_tem"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:visibility="visible">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tem"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_test_light"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flash Led"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_screen_control"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:visibility="visible">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Screen Control"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_relay"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="RelayControl"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_sound"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:visibility="visible">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sound"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:visibility="gone">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tem"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/ll_auto_test"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AutoTest"
+                    android:textColor="@android:color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
